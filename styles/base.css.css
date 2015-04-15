@@ -1,0 +1,69 @@
+.gradient {
+  background-image: linear-gradient(#86A547, #556B2F); }
+
+body {
+  font: 100% Sans Serif, sans-serif;
+  font-size: 12px;
+  background-color: #86A547;
+  background-image: -webkit-linear-gradient(top left, #556B2F, #86A547); }
+
+main {
+  background: white;
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+footer {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-top: rgba(255, 255, 255, 0.5) solid 1px; }
+
+button {
+  float: right;
+  padding: 12px 35px;
+  border-radius: 4px;
+  margin: 10px;
+  box-shadow: none;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none; }
+
+a {
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none; }
+
+button.nothing-button {
+  background: none;
+  border: white solid 1px; }
+
+button.wiki-button {
+  background: #6E4474;
+  background-image: -webkit-linear-gradient(bottom, #6E4474, #8C5594);
+  margin-right: 20px; }
+
+.upper-div {
+  font-weight: lighter;
+  padding: 0 15px;
+  line-height: 1.5em;
+  color: gray; }
+
+.lower-div {
+  color: #4d4d4d;
+  font-weight: bolder;
+  margin-bottom: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #e2d2e5; }
+  .lower-div ul {
+    list-style-type: none;
+    margin-bottom: 0; }
+  .lower-div ul > li {
+    display: inline; }
+
+/*# sourceMappingURL=base.css.css.map */
