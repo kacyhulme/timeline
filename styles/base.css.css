@@ -1,41 +1,31 @@
-@charset "UTF-8";
 /*.tooltip {
   color: white;
 }*/
+.tool-class {
+  display: none; }
+
 .tip {
-  position: relative;
   text-decoration: none;
   text-transform: capitalize;
   font-family: Arial;
-  font-weight: lighter; }
-
-.tip:hover:before {
+  font-weight: lighter;
+  content: "HERE IS CONTENT";
   display: block;
   position: absolute;
   padding: 7px;
-  content: attr(title);
   min-width: 120px;
   text-align: center;
   width: auto;
   height: auto;
   white-space: nowrap;
-  top: -32px;
+  top: 119px;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
   color: #fff;
-  font-size: .86em; }
-
-.tip:hover:after {
-  position: absolute;
-  display: block;
-  content: “”;
+  font-size: .86em;
   border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
   border-style: solid;
   border-width: 10px;
-  height: 0;
-  width: 0;
-  position: absolute;
-  top: -8px;
   left: 1em; }
 
 footer {
