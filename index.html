@@ -1,6 +1,7 @@
 <html>
 <head>
  <link rel="stylesheet" type="text/css" href="styles/base.css.css">
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </head>
 <body>
   <main>
@@ -9,38 +10,57 @@
       <p>Here 3 random events from Wikipedia's <u>Timeline of the Near Future.</u> Upon hovering over each date, you can learn something fun that will happen in that year and an imaginary season.</p>
       <p>If you're interested in learning more about the events mentioned, you can click the button at the bottom of this pate to head to Wikepedia.</p>
     </div>
-    <div class="lower-div">
-      <ul>
-        <li>
-          <svg height="60" width="60">
-            <circle cx="50" cy="50" r="6" stroke="plum" stroke-width="4" fill="purple" />
+    <div class="lower-div container">
+      <div class="item tip" title="first">
+        <div class="inner-container">
+          <div class="inner-item">
+            <svg height="20" width="20">
+              <circle cx="8" cy="9" r="6" stroke="#e2d2e5" stroke-width="4" fill="purple" />
+            </svg>
+          </div>
+          <div class="inner-item">
+            <span>Winter 2032</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="item tip" title="second">
+       <div class="inner-container">
+        <div class="inner-item">
+          <svg height="20" width="20">
+            <circle cx="8" cy="9" r="6" stroke="#e2d2e5" stroke-width="4" fill="purple" />
           </svg>
-          <span>Winter 2032</span>
-        </li>
-        <li>
-          <svg height="60" width="60">
-            <circle cx="50" cy="50" r="6" stroke="plum" stroke-width="4" fill="purple" />
-          </svg>
+        </div>
+        <div class="inner-item">
           <span>Autumn 2049</span>
-        </li>
-        <li>
-          <svg height="60" width="60">
-            <circle cx="50" cy="50" r="6" stroke="plum" stroke-width="4" fill="purple" />
-          </svg>
-          <span>Spring 2076</span>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
-  </main>
 
-  <footer class="gradient">
-    <button class="wiki-button">
-      <a href="http://en.wikipedia.org/wiki/Timeline_of_the_near_future">Take Me to Wikipedia!</a>
-    </button>
-    <button class="nothing-button">This Button Does Nothing.</button>
-  </footer>
+    <div class="item tip" title="third">
+     <div class="inner-container">
+      <div class="inner-item">
+        <svg height="20" width="20">
+          <circle cx="8" cy="9" r="6" stroke="#e2d2e5" stroke-width="4" fill="purple" />
+        </svg>
+      </div>
+      <div class="inner-item">
+        <span>Spring 2076</span>
+      </div>
+    </div>
+  </div>
 
-  <script src="javascripts/main.js"></script>
+</div>
+</main>
+
+<footer class="gradient">
+  <button class="wiki-button">
+    <a href="http://en.wikipedia.org/wiki/Timeline_of_the_near_future">Take Me to Wikipedia!</a>
+  </button>
+  <button class="nothing-button">This Button Does Nothing.</button>
+</footer>
+
+<script src="javascripts/main.js"></script>
 
 </body>
 </html>
