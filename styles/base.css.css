@@ -1,12 +1,15 @@
 @charset "UTF-8";
-div.tip {
+/*.tooltip {
+  color: white;
+}*/
+.tip {
   position: relative;
   text-decoration: none;
   text-transform: capitalize;
   font-family: Arial;
   font-weight: lighter; }
 
-div.tip:hover:before {
+.tip:hover:before {
   display: block;
   position: absolute;
   padding: 7px;
@@ -22,7 +25,7 @@ div.tip:hover:before {
   color: #fff;
   font-size: .86em; }
 
-div.tip:hover:after {
+.tip:hover:after {
   position: absolute;
   display: block;
   content: “”;
