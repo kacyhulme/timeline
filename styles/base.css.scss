@@ -7,14 +7,7 @@ body {
   margin: 0;
   font: 100% $font-stack;
   font-size: 12px;
-  @include linear-gradient($primary-color, $secondary-color); 
-}
-
-.gradient {
-  background-image:
-  linear-gradient(
-    $secondary-color, $primary-color
-    );
+  @include radial-gradient($primary-color, $secondary-color); 
 }
 
 main {

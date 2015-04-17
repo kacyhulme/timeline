@@ -43,7 +43,9 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
-  border-top: rgba(255, 255, 255, 0.5) solid 1px; }
+  border-top: rgba(255, 255, 255, 0.5) solid 1px;
+  background-color: #556B2F;
+  background-image: -webkit-linear-gradient(top, #86A547, #556B2F); }
 
 button {
   float: right;
@@ -74,11 +76,8 @@ body {
   margin: 0;
   font: 100% "Open Sans", sans-serif;
   font-size: 12px;
-  background-color: #86A547;
-  background-image: -webkit-linear-gradient(top left, #556B2F, #86A547); }
-
-.gradient {
-  background-image: linear-gradient(#86A547, #556B2F); }
+  background-color: #556B2F;
+  background: -webkit-radial-gradient(center left, circle cover, #556B2F 0%, #86A547 100%); }
 
 main {
   background: white;
