@@ -51,7 +51,7 @@ button {
   border-radius: 4px;
   margin: 10px;
   box-shadow: none;
-  font-family: Arial;
+  font: 100% "Open Sans", sans-serif;
   color: #ffffff;
   font-size: 12px;
   text-decoration: none; }
@@ -72,7 +72,7 @@ button.wiki-button {
 
 body {
   margin: 0;
-  font: 100% Sans Serif, sans-serif;
+  font: 100% "Open Sans", sans-serif;
   font-size: 12px;
   background-color: #86A547;
   background-image: -webkit-linear-gradient(top left, #556B2F, #86A547); }
@@ -121,7 +121,7 @@ main {
 .inner-item {
   text-align: center;
   text-transform: uppercase;
-  font-family: Arial;
+  font: 100% "Open Sans", sans-serif;
   font-weight: bolder; }
 
 /*# sourceMappingURL=base.css.css.map */
