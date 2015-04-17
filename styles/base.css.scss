@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  background: white;
+  background: #ffffff;
   border-radius: 5px;
   position: fixed;
   top: 50%;
@@ -21,7 +21,6 @@ main {
 }
 
 .upper-div {
-  font-weight: lighter;
   padding: 0 15px 15px 15px;
   line-height: 1.5em;
   color: lighten($text-color, 50%);
