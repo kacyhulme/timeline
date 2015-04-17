@@ -1,3 +1,5 @@
+@import 'variables';
+
 footer {
   height: 60px;
   width: 100%;
@@ -9,9 +11,8 @@ footer {
 
 button {
   float: right;
-  padding: 12px 35px;
   border-radius: 4px;
-  margin: 10px;
+  margin: 10px 5px;
   box-shadow: none;
   font: 100% $font-stack;
   color: #ffffff;
@@ -28,10 +29,12 @@ a {
 button.nothing-button {
   background: none;
   border: #ffffff solid 1px;
+  padding: 12px 35px;
 }
 
 button.wiki-button {
+  padding: 12px 45px;
+  border: 0;
   background: $button-color;
-  background-image: -webkit-linear-gradient(bottom, #6E4474, #8C5594);
   margin-right: 20px;
 }

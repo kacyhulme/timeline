@@ -41,14 +41,13 @@ footer {
   position: absolute;
   bottom: 0;
   border-top: rgba(255, 255, 255, 0.5) solid 1px;
-  background-color: #556B2F;
-  background-image: -webkit-linear-gradient(top, #86A547, #556B2F); }
+  background-color: #5A6F2F;
+  background-image: -webkit-linear-gradient(top, #8AAB49, #5A6F2F); }
 
 button {
   float: right;
-  padding: 12px 35px;
   border-radius: 4px;
-  margin: 10px;
+  margin: 10px 5px;
   box-shadow: none;
   font: 100% "Open Sans", sans-serif;
   color: #ffffff;
@@ -62,19 +61,21 @@ a {
 
 button.nothing-button {
   background: none;
-  border: #ffffff solid 1px; }
+  border: #ffffff solid 1px;
+  padding: 12px 35px; }
 
 button.wiki-button {
+  padding: 12px 45px;
+  border: 0;
   background: #6E4474;
-  background-image: -webkit-linear-gradient(bottom, #6E4474, #8C5594);
   margin-right: 20px; }
 
 body {
   margin: 0;
   font: 100% "Open Sans", sans-serif;
   font-size: 12px;
-  background-color: #556B2F;
-  background: -webkit-radial-gradient(center left, circle cover, #556B2F 0%, #86A547 100%); }
+  background-color: #5A6F2F;
+  background: -webkit-radial-gradient(center left, circle cover, #5A6F2F 0%, #8AAB49 100%); }
 
 main {
   background: #ffffff;
@@ -94,7 +95,7 @@ main {
   color: #4d4d4d;
   font-weight: bolder;
   margin-bottom: 0;
-  border-radius: 4px;
+  border-radius: 0 0 4px 4px;
   text-transform: uppercase;
   background: #e2d2e5;
   padding: 0 0 15px 0;
