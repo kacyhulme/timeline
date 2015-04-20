@@ -1,19 +1,21 @@
 @import 'variables';
 
+.gradient {
+  background-image: -webkit-radial-gradient(bottom left, farthest-side, $primary-color 0%, $secondary-color 100%);
+}
+
 footer {
   height: 60px;
   width: 100%;
   position: absolute;
   bottom: 0;
   border-top: rgba(255,255,255, 0.5) solid 1px;
-  @include linear-gradient($secondary-color, $primary-color); 
 }
 
 button {
   float: right;
   border-radius: 4px;
   margin: 10px 5px;
-  box-shadow: none;
   font: 100% $font-stack;
   color: #ffffff;
   font-size: 12px;
@@ -29,12 +31,13 @@ a {
 button.nothing-button {
   background: none;
   border: #ffffff solid 1px;
-  padding: 12px 35px;
+  padding: 11px 35px;
 }
 
 button.wiki-button {
-  padding: 12px 45px;
-  border: 0;
-  background: $button-color;
+  padding: 11px 45px;
+  border: 1px solid #786A6F;
   margin-right: 20px;
+  box-shadow: inset 0 1px 0 #B182B9;
+  @include linear-gradient($secondary-button-color, $primary-button-color); 
 }
