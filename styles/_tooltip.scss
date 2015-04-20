@@ -1,40 +1,51 @@
-.tip {
-  position: relative;
-  text-decoration: none;
-  text-transform: capitalize;
-  font-family: Arial;
-  font-weight: lighter;
-}
-
-.tip:hover:before {
-  display: block;
-  position: absolute;
-  padding: 7px;
-  content: attr(title);
-  min-width: 120px;
-  text-align: center;
-  width: auto;
-  height: auto;
-  white-space: nowrap;
-  top: -32px;
+.custom-tooltip-styling-one {
   background: rgba(0,0,0,.8);
-  border-radius:4px;
-  color: #fff;
-  font-size: .86em;
-}
-
-.tip:hover:after {
-  position: absolute;
-  display: block;
-  content: “”;
   border-color: rgba(0,0,0,.8) transparent transparent transparent;
   border-style: solid;
-  border-width: 10px;
-  height:0;
-  width:0;
-  position:absolute;
-  top: -8px;
-  left:1em;
+  padding: 5px;
+  text-align: center;
+  width: 40px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: .86em;
+  font-weight: lighter;
+  height: auto;
+  width: 85px;
+  white-space: nowrap;
 }
 
+.custom-tooltip-styling-two {
+  background: rgba(0,0,0,.8);
+  border-color: rgba(0,0,0,.8) transparent transparent transparent;
+  border-style: solid;
+  padding: 5px;
+  text-align: center;
+  width: 40px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: .86em;
+  font-weight: lighter;
+  height: auto;
+  width: 350px;
+  white-space: nowrap;
+}
 
+.custom-tooltip-styling-three {
+  background: rgba(0,0,0,.8);
+  border-color: rgba(0,0,0,.8) transparent transparent transparent;
+  border-style: solid;
+  padding: 5px;
+  text-align: center;
+  width: 40px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: .86em;
+  font-weight: lighter;
+  height: auto;
+  width: 300px;
+  white-space: nowrap;
+}
+
+.ui-helper-hidden-accessible {
+  display: none;
+}
